@@ -1,0 +1,9 @@
+{
+  "name": "killedbytesla.com",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"astro dev --host 127.0.0.1", "build":"astro build", "preview":"astro preview --host 127.0.0.1", "check":"astro check", "test":"node --test scripts/*.test.mjs"},
+  "dependencies": {"astro":"^7.4.7", "@astrojs/sitemap":"^3.6.0", "@fontsource/barlow":"^5.2.0", "@fontsource/ibm-plex-mono":"^5.2.0"},
+  "devDependencies": {"@astrojs/check":"^0.9.4", "typescript":"^5.9.0"}
+}

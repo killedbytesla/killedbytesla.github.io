@@ -1,0 +1,16 @@
+name: "Solar Roof"
+category: "Energy"
+status: "Discontinued"
+start: "2017"
+end: "2026-08"
+description: "Glass roofing tiles with integrated solar cells, designed to replace a conventional roof."
+details: "Tesla stopped selling Solar Roof tiles in August 2026. Contemporary reporting describes the end of the tile product, rather than the end of Tesla\u2019s conventional solar-panel or energy-storage businesses."
+dateNote: "Start uses the customer-order year, not the 2016 unveiling. End is the reported withdrawal month."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Tesla 2017 annual report"
+    url: "https://ir.tesla.com/_flysystem/s3/sec/000156459018002956/tsla-10k_20171231.html"
+    supports: start
+  - title: "Reuters: Tesla stops selling solar roofs"
+    url: "https://ca.investing.com/news/commodities-news/tesla-stops-selling-solar-roofs-a-decade-after-launch-4814502"
+    supports: ending

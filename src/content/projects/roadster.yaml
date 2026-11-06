@@ -1,0 +1,16 @@
+name: "Original Roadster"
+category: "Vehicles"
+status: "Discontinued"
+start: "2008"
+end: "2012-01"
+description: "Tesla\u2019s first production car: a two-seat electric sports car built on a Lotus-derived platform."
+details: "The original Roadster\u2019s production run ended in January 2012. Remaining inventory continued to be sold afterward. This entry concerns the first generation, not the later Roadster project."
+dateNote: "Dates cover the original production run; inventory sales continued after production ended."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Roadster regular production begins"
+    url: "https://ir.tesla.com/press-release/tesla-motors-begins-regular-production-2008-tesla-roadster"
+    supports: start
+  - title: "Tesla 2012 annual report"
+    url: "https://ir.tesla.com/_flysystem/s3/sec/000119312513096241/d452995d10k.html"
+    supports: ending

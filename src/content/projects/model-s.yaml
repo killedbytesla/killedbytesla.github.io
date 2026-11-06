@@ -1,0 +1,16 @@
+name: "Model S"
+category: "Vehicles"
+status: "Discontinued"
+start: "2012-06"
+end: "2026-05"
+description: "The electric sedan that introduced Tesla\u2019s large touchscreen and long-range platform."
+details: "Tesla announced the end of the Model S and Model X programs in 2026. A supplier\u2019s regulatory filing reports that related production was substantially completed by May. Production ending does not mean vehicles already on the road stop being supported."
+dateNote: "Start is the first customer-delivery month. End reflects substantial production completion reported by a supplier."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Tesla 2017 annual report"
+    url: "https://ir.tesla.com/_flysystem/s3/sec/000156459018002956/tsla-10k_20171231.html"
+    supports: start
+  - title: "Supplier annual filing: program discontinuation"
+    url: "https://www.sec.gov/Archives/edgar/data/1698506/000121390026112998/ea0270032-19.htm"
+    supports: ending

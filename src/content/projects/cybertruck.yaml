@@ -1,0 +1,21 @@
+name: "Cybertruck"
+category: "Vehicles"
+status: "Announced wind-down"
+start: "2023-11"
+end: "2027"
+description: "The stainless-steel pickup, with a Texas production wind-down announced for mid-2027."
+details: "On November 6, 2026, Reuters reported that Tesla plans to wind down Cybertruck production at Gigafactory Texas around mid-2027 to make room for Cybercab. The report says it remains unclear whether production will move elsewhere or end entirely. This is an announced factory wind-down, not a completed global discontinuation."
+dateNote: "Start is the first customer-delivery month. Mid-2027 is an approximate target, not a confirmed final production date."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Cybertruck delivery event"
+    url: "https://www.tesla.com/cybertruck"
+    supports: context
+  - title: "Reuters: Texas production wind-down"
+    url: "https://www.streetinsider.com/Reuters/Tesla%2Bto%2Bwind%2Bdown%2BCybertruck%2Bproduction%2Bat%2BTexas%2Bgigafactory%2Bnext%2Byear%2C%2BMusk%2Bsays/27302393.html"
+    supports: ending
+  - title: "Cybertruck history"
+    url: "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+    supports: start
+endLabel: "Mid-2027 (planned)"
+announcementDate: "2026-11-06"

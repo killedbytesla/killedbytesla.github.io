@@ -1,0 +1,23 @@
+name: Correct a record
+description: Fix a date, description, status, or source.
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project name or record URL
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed entry or correction
+      description: Include lifecycle dates, status, and any uncertainty. Distinguish factory closures from global discontinuations.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Link evidence for the start and ending. Prefer company statements, filings, or reputable reporting.
+    validations:
+      required: true

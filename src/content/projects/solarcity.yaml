@@ -1,0 +1,16 @@
+name: "SolarCity"
+category: "Businesses"
+status: "Absorbed brand"
+start: "2006"
+end: "2016-11"
+description: "The solar installer acquired by Tesla and integrated into its energy business."
+details: "SolarCity was founded independently in 2006 and acquired by Tesla in November 2016. This is an acquired and absorbed business, not a project Tesla founded or a claim that all of its solar operations closed. It is excluded from the ended-project count."
+dateNote: "Dates cover the independent company through Tesla\u2019s acquisition, not the end of solar installations."
+lastVerified: "2026-11-06"
+sources:
+  - title: "SolarCity 2016 annual filing"
+    url: "https://www.sec.gov/Archives/edgar/data/1408356/000156459017003084/scty-10k_20161231.htm"
+    supports: start
+  - title: "Tesla 2016 annual report: acquisition"
+    url: "https://ir.tesla.com/_flysystem/s3/sec/000156459017003118/tsla-10k_20161231.html"
+    supports: ending

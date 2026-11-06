@@ -1,0 +1,16 @@
+name: "Model S Plaid+"
+category: "Vehicles"
+status: "Cancelled"
+start: "2021"
+end: "2021-06"
+description: "An announced longer-range Model S variant that was cancelled before production."
+details: "Tesla offered reservations for a higher-range Plaid+ variant, then cancelled it in June 2021. The regular Model S Plaid remained a separate product; the cancellation did not end the Model S program at that time."
+dateNote: "Dates cover announcement and cancellation, not customer availability."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Plaid+ announcement and cancellation"
+    url: "https://www.electrive.com/2021/06/07/tesla-cancels-model-s-plaid/"
+    supports: start
+  - title: "Cancellation announcement, June 2021"
+    url: "https://www.electrive.com/2021/06/07/tesla-cancels-model-s-plaid/"
+    supports: ending

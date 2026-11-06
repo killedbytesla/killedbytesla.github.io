@@ -1,0 +1,16 @@
+name: "Cybertruck range extender"
+category: "Accessories"
+status: "Cancelled"
+start: "2023"
+end: "2025-05"
+description: "A proposed extra battery for the pickup\u2019s bed, cancelled before customer deliveries."
+details: "The optional battery pack was intended to increase the Cybertruck\u2019s range. In May 2025, Tesla told reservation holders that it no longer planned to sell the accessory and would refund deposits."
+dateNote: "Start is the announcement year; this product never reached customer delivery."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Cybertruck range extender history"
+    url: "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+    supports: start
+  - title: "Cancellation reported to reservation holders"
+    url: "https://www.motor1.com/news/759025/tesla-cybertruck-range-extender-battery/"
+    supports: ending

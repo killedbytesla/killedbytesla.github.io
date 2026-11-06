@@ -1,0 +1,16 @@
+name: "Battery-swap pilot"
+category: "Infrastructure"
+status: "Discontinued"
+start: "2014-12"
+end: "2016-11"
+description: "A California pilot that exchanged a Model S battery pack instead of charging it."
+details: "Following a 2013 demonstration, Tesla announced an appointment-based battery-swap pilot at Harris Ranch in December 2014. By November 2016 the location was no longer accepting appointments. The end date records that observed closure, rather than a precisely documented final swap."
+dateNote: "Start is the pilot announcement month, not the 2013 demonstration. End is the reported cessation of appointments."
+lastVerified: "2026-11-06"
+sources:
+  - title: "Battery-swap pilot history"
+    url: "https://en.wikipedia.org/wiki/Tesla_battery_station"
+    supports: start
+  - title: "Pilot no longer accepting appointments"
+    url: "https://insideevs.com/news/329836/tesla-battery-swap-location-shut-down-for-now/"
+    supports: ending

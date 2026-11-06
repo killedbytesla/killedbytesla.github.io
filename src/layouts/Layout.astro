@@ -1,0 +1,11 @@
+---
+import '../styles/global.css';
+import '@fontsource/barlow/400.css';
+import '@fontsource/barlow/500.css';
+import '@fontsource/barlow/600.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import { repo } from '../lib/projects';
+const { title = 'Killed by Tesla', description = 'An independent, community-maintained archive of discontinued Tesla projects, cancellations, and announced wind-downs.' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><meta name="theme-color" content="#efeee9"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={canonical}/></head><body><a class="skip" href="#main">Skip to content</a><div class="shell"><header class="header"><a class="wordmark" href="/" aria-label="Killed by Tesla home"><span class="mark" aria-hidden="true">↯</span> KILLED BY TESLA<span class="domain">.COM</span></a><nav aria-label="Main navigation"><a href="/about/">About the archive</a><a class="contribute" href={`${repo}/issues/new/choose`}>Contribute <span aria-hidden="true">↗</span></a></nav></header><slot/><footer><div><a class="footer-brand" href="/">KILLED BY TESLA</a><p>An independent archive. Not affiliated with Tesla, Inc.</p></div><div class="footer-links"><a href="/about/">Methodology</a><a href={repo}>Source on GitHub ↗</a><span>Code MIT · Data CC BY 4.0</span></div></footer></div></body></html>
