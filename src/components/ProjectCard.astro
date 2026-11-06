@@ -1,12 +1,12 @@
 ---
 import { dateLabel, statusClass } from '../lib/projects';
-const { project, index } = Astro.props;
+const { project } = Astro.props;
 const { data: p, id } = project;
 ---
 <article class="project-card" data-project data-search={`${p.name} ${p.description}`.toLowerCase()} data-status={p.status} data-category={p.category}>
-  <div class="card-top"><span class="record-number">{String(index + 1).padStart(2,'0')} / {p.category}</span><span class:list={['status',statusClass(p.status)]}><i aria-hidden="true"></i>{p.status}</span></div>
-  <div class="card-dates">{p.start.slice(0,4)} <span aria-hidden="true">—</span> {p.end.slice(0,4)}{p.status === 'Announced wind-down' && <span class="planned"> / planned</span>}</div>
-  <h2><a href={`/projects/${id}/`}>{p.name}<span aria-hidden="true">↗</span></a></h2>
+  <div class="card-top"><span class="category">{p.category}</span><span class:list={['status',statusClass(p.status)]}><i aria-hidden="true"></i>{p.status}</span></div>
+  <h2><a href={`/projects/${id}/`}>{p.name}</a></h2>
+  <div class="card-dates"><span>{dateLabel(p.start)}</span><span aria-hidden="true">—</span><span>{p.endLabel || dateLabel(p.end)}</span></div>
   <p>{p.description}</p>
-  <div class="card-bottom"><span>{p.endLabel || dateLabel(p.end)}</span><a href={`/projects/${id}/`}>View record <span aria-hidden="true">→</span></a></div>
+  <div class="card-bottom"><a href={`/projects/${id}/`} aria-label={`View ${p.name} record`}>View record <span aria-hidden="true">→</span></a></div>
 </article>
